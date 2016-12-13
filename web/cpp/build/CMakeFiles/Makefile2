@@ -56,38 +56,38 @@ CMAKE_SOURCE_DIR = /home/luogf/workSpace/web/cpp
 CMAKE_BINARY_DIR = /home/luogf/workSpace/web/cpp/build
 
 #=============================================================================
-# Target rules for target CMakeFiles/streamServer1.0.0.dir
+# Target rules for target CMakeFiles/streamServer1.0.1.dir
 
 # All Build rule for target.
-CMakeFiles/streamServer1.0.0.dir/all: pushStream/CMakeFiles/CPushStream.dir/all
-	$(MAKE) -f CMakeFiles/streamServer1.0.0.dir/build.make CMakeFiles/streamServer1.0.0.dir/depend
-	$(MAKE) -f CMakeFiles/streamServer1.0.0.dir/build.make CMakeFiles/streamServer1.0.0.dir/build
+CMakeFiles/streamServer1.0.1.dir/all: pushStream/CMakeFiles/CPushStream.dir/all
+	$(MAKE) -f CMakeFiles/streamServer1.0.1.dir/build.make CMakeFiles/streamServer1.0.1.dir/depend
+	$(MAKE) -f CMakeFiles/streamServer1.0.1.dir/build.make CMakeFiles/streamServer1.0.1.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/luogf/workSpace/web/cpp/build/CMakeFiles  2
-	@echo "Built target streamServer1.0.0"
-.PHONY : CMakeFiles/streamServer1.0.0.dir/all
+	@echo "Built target streamServer1.0.1"
+.PHONY : CMakeFiles/streamServer1.0.1.dir/all
 
 # Include target in all.
-all: CMakeFiles/streamServer1.0.0.dir/all
+all: CMakeFiles/streamServer1.0.1.dir/all
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/streamServer1.0.0.dir/rule: cmake_check_build_system
+CMakeFiles/streamServer1.0.1.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/luogf/workSpace/web/cpp/build/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/streamServer1.0.0.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/streamServer1.0.1.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/luogf/workSpace/web/cpp/build/CMakeFiles 0
-.PHONY : CMakeFiles/streamServer1.0.0.dir/rule
+.PHONY : CMakeFiles/streamServer1.0.1.dir/rule
 
 # Convenience name for target.
-streamServer1.0.0: CMakeFiles/streamServer1.0.0.dir/rule
-.PHONY : streamServer1.0.0
+streamServer1.0.1: CMakeFiles/streamServer1.0.1.dir/rule
+.PHONY : streamServer1.0.1
 
 # clean rule for target.
-CMakeFiles/streamServer1.0.0.dir/clean:
-	$(MAKE) -f CMakeFiles/streamServer1.0.0.dir/build.make CMakeFiles/streamServer1.0.0.dir/clean
-.PHONY : CMakeFiles/streamServer1.0.0.dir/clean
+CMakeFiles/streamServer1.0.1.dir/clean:
+	$(MAKE) -f CMakeFiles/streamServer1.0.1.dir/build.make CMakeFiles/streamServer1.0.1.dir/clean
+.PHONY : CMakeFiles/streamServer1.0.1.dir/clean
 
 # clean rule for target.
-clean: CMakeFiles/streamServer1.0.0.dir/clean
+clean: CMakeFiles/streamServer1.0.1.dir/clean
 .PHONY : clean
 
 #=============================================================================

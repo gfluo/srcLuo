@@ -1,0 +1,1 @@
+/usr/local/bin/g++    -O0 -Wall -g -ggdb    CMakeFiles/streamServer1.0.1.dir/main.cpp.o  -o bin/streamServer1.0.1 -rdynamic -lavformat -lavcodec -lavutil pushStream/libCPushStream.a -lboost_system -lboost_filesystem -lboost_thread 

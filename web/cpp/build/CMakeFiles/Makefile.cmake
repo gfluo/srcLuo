@@ -17,8 +17,6 @@ SET(CMAKE_MAKEFILE_DEPENDS
   "/usr/share/cmake/Modules/CMakeCommonLanguageInclude.cmake"
   "/usr/share/cmake/Modules/CMakeGenericSystem.cmake"
   "/usr/share/cmake/Modules/CMakeSystemSpecificInformation.cmake"
-  "/usr/share/cmake/Modules/CheckCXXCompilerFlag.cmake"
-  "/usr/share/cmake/Modules/CheckCXXSourceCompiles.cmake"
   "/usr/share/cmake/Modules/Compiler/GNU-C.cmake"
   "/usr/share/cmake/Modules/Compiler/GNU-CXX.cmake"
   "/usr/share/cmake/Modules/Compiler/GNU.cmake"
@@ -43,6 +41,6 @@ SET(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 SET(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/streamServer1.0.0.dir/DependInfo.cmake"
+  "CMakeFiles/streamServer1.0.1.dir/DependInfo.cmake"
   "pushStream/CMakeFiles/CPushStream.dir/DependInfo.cmake"
   )

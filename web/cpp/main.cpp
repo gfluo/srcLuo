@@ -1,15 +1,11 @@
 #include <stdio.h>
- 
-extern "C"
-{
-#include <libavformat/avformat.h>
-#include <libavutil/mathematics.h>
-#include <libavutil/time.h>
-};
- 
+#include "pushStream/CPushStream.h" 
  
 int main(int argc, char* argv[])
 {
+  CPushStream cps;
+  cps.start();
+  /*
   AVOutputFormat *ofmt = NULL;
   //输入对应一个AVFormatContext，输出对应一个AVFormatContext
   //（Input AVFormatContext and Output AVFormatContext）
@@ -125,7 +121,7 @@ int main(int argc, char* argv[])
  
     in_stream  = ifmt_ctx->streams[pkt.stream_index];
     out_stream = ofmt_ctx->streams[pkt.stream_index];
-    /* copy packet */
+    // copy packet
     //转换PTS/DTS（Convert PTS/DTS）
     pkt.pts = av_rescale_q_rnd(pkt.pts, in_stream->time_base, out_stream->time_base, (AVRounding)(AV_ROUND_NEAR_INF|AV_ROUND_PASS_MINMAX));
     pkt.dts = av_rescale_q_rnd(pkt.dts, in_stream->time_base, out_stream->time_base, (AVRounding)(AV_ROUND_NEAR_INF|AV_ROUND_PASS_MINMAX));
@@ -149,5 +145,6 @@ int main(int argc, char* argv[])
   }
   //写文件尾（Write file trailer）
   av_write_trailer(ofmt_ctx);
+  */
   return 0;
 }
