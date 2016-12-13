@@ -1,0 +1,2 @@
+/usr/bin/ar cr libCPushStream.a  CMakeFiles/CPushStream.dir/CPushStream.cpp.o
+/usr/bin/ranlib libCPushStream.a

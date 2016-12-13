@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/luogf/workSpace/web/cpp/pushStream/CPushStream.cpp
+CPushStream.h
+/home/luogf/workSpace/web/cpp/pushStream/CPushStream.h
+
+/home/luogf/workSpace/web/cpp/pushStream/CPushStream.h
+string
+-
+iostream
+-
+vector
+-
+
