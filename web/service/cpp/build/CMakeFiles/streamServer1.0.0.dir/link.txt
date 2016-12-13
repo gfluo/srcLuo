@@ -1,1 +1,0 @@
-/usr/local/bin/g++    -std=c++11  -O0 -Wall -g -ggdb    CMakeFiles/streamServer1.0.0.dir/main.cpp.o  -o bin/streamServer1.0.0 -rdynamic -lboost_system -lboost_filesystem -lboost_thread 
