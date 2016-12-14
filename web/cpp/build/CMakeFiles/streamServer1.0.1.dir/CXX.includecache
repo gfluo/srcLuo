@@ -11,6 +11,8 @@ stdio.h
 -
 pushStream/CPushStream.h
 /home/luogf/workSpace/web/cpp/pushStream/CPushStream.h
+unistd.h
+-
 
 /home/luogf/workSpace/web/cpp/pushStream/CPushStream.h
 string
